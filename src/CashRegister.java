@@ -46,9 +46,6 @@ public class CashRegister {
 
     @Override
     public String toString() {
-        return "CashRegister{" +
-                "arrayList=" + arrayList +
-                ", name='" + name + '\'' +
-                '}';
+        return name + " список людей: " + arrayList;
     }
 }

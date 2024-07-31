@@ -77,8 +77,8 @@ public class Market implements MarketBehaviour, QueueBehaviour{
 
     @Override
     public String toString() {
-        return "Market{" +
-                "cashRegistersList=" + cashRegistersList +
+        return "Магазин{" +
+                "Список всех открытых касс:" + cashRegistersList +
                 '}';
     }
 }
